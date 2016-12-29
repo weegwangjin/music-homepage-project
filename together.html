@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="mv.css">
+   <script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+  <title>Project</title>
+  <style>
+    #MV_RightAlbum {
+       float:left;
+    }
+    #RightLi {
+       float:left;
+    }
+    .rightAlbum{
+       display:block;height:140px;list-style-type:none;margin: 0;padding:0;align:left;
+    }
+  </style>
+</head>
+
+<body>
+<div style="width:900px;" id="MV_RightAlbum">
+  <div id="RightLi"><iframe width="490" height="276" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/c7rCyll5AeY" name="video" ></iframe></div>
+  <ul style="width:215px;">
+    <div align="left" margin="0" padding="0">
+      <li class="rightAlbum"><a href="https://www.youtube.com/embed/c7rCyll5AeY" target="video"><img src="together/togetherTop1.jpg" width="215px" height="140px" title="Source: Bugs.com"></a></li>
+      <li class="rightAlbum"><a href="https://www.youtube.com/embed/FjWMQyZXm20" target="video"><img src="together/togetherTop2.jpg" width="215px" height="140px" title="Source: Bugs.com"></a></li>
+    </div>
+  </ul>
+</div>
+<div>
+  <ul>
+    <div align="left" margin="0" padding="0">
+      <li><a href="https://www.youtube.com/embed/nzDO6tAB6ng" target="video"><img src="together/togetherTop3.jpg" width="245px" height="130px" title="Source: Bugs.com"></a></li>
+      <li><a href="https://www.youtube.com/embed/JtjxZoa_LHM" target="video"><img src="together/togetherTop4.jpg" width="245px" height="130px" title="Source: Bugs.com"></a></li>
+      <li><a href="https://www.youtube.com/embed/cIGgSI1uhKI" target="video"><img src="together/togetherTop5.jpg" width="215px" height="130px" title="Source: Bugs.com"></a></li>
+    </div>
+  </ul>
+</div>
+<div class="search">
+    <form>
+        <input id="m" type="radio" name="search" value="MUSIC" checked> MUSIC
+        <input id="y" type="radio" name="search" value="YOUTUBE"> YOUTUBE  
+        <ng-form>
+            <input id="search_text" name="search_text" type="text" size="30" style="border: 1px solid black"/>     <img id="search_button" src="search_logo.png" width="30" height="20" style="cursor:pointer"/>
+        </ng-form>
+    </form>
+</div>
+    <div hidden="hidden">
+        <p class="music_list">한숨</p>
+        <p class="music_list">쏘쏘</p>
+        <p class="music_list">눈코입</p>
+        <p class="music_list">heaven</p>
+        <p class="music_list">좋은날</p>
+        <span class="music_address">https://www.youtube.com/embed/5iSlfF8TQ9k</span>
+        <span class="music_address">https://www.youtube.com/embed/BbQG-S4mU0U</span>
+        <span class="music_address">https://www.youtube.com/embed/UwuAPyOImoI</span>
+        <span class="music_address">https://www.youtube.com/embed/L9ro1KjkJMg </span>
+        <span class="music_address">https://www.youtube.com/embed/jeqdYqsrsA0</span>
+    </div>
+    <script type="text/javascript" src="search_control.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+  <script type="text/javascript">
+         $(function(){
+	     $("ul.sub").hide();
+	     $("ul.menu li").hover(function(){
+		    $("ul:not(:animated)",this).slideDown("fast");
+			},
+			function(){
+			   $("ul",this).slideUp("fast");
+			});
+      });
+    </script>
+  <title>Project</title>
+ 
+</head>
+<body>
+    <div class="main_logo" ><a href="index.html"><img src="logo.jpg" title="Source: http://blog.naver.com/dark861007/50106235598" id="main_logo"></a></div>
+    <div style="margin-top:100px;" id="main">
+    <ul class="menu">
+        <li id="main_navi"><a><font color="black">T O P 5 ▼</font></a>
+            <ul class="sub" id="TOP5">
+                 <li> <a href="together.html" target="mv"><font color="black">종합 TOP 5</font></a></i>
+                <li> <a href="ballad.html" target="mv"><font color="black">발라드 TOP 5</font></a></li>
+                <li> <a href="hiphop.html" target="mv"><font color="black">힙합 TOP 5</font></a></li>
+                
+            </ul>
+        </li>
+        <li> <a href="news.html"> N e w s</a></li>
+        <li> <a href="magic.html">놀 이 터</a></li>
+        <li class="right-align"> <a href="#home"><font size="1"><b>Updated 2016.05.01</b></font></a></li>
+    </ul></div>
+<div id="iframe_div" margin-bottom="0" hidden="hidden"><iframe width="710" height="1000" src="" frameborder="0" allowfullscreen scrolling="yes" name="mv"></iframe></div>
+    <script type="text/javascript" src="control.js"></script>
+</body>
+</html>

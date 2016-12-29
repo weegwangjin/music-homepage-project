@@ -1,0 +1,42 @@
+body{
+  max-width: inherit;
+  max-height:inherit;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  
+}
+ul {
+  margin-top:0;
+  list-style-type: none;
+  margin : 0;
+  padding : 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 710px;
+  align: center;
+}
+
+li a {
+  display: inline-block;
+  color: #000;
+  text-align : center;
+  padding: 0px 0px 0px 0px;
+  text-decoration : none;
+}
+li {
+  float:left;
+  display: inline;
+  font-family: arial, sans;
+}
+
+.search {
+    padding:20px;
+    height:50px;
+    margin-left:150px;
+    margin-top:15px;
+}
+
+li>a>img {
+    opacity:1.0;
+}
